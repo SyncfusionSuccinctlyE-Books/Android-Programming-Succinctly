@@ -1,0 +1,1 @@
+These are the code samples for Android Programming Succinctly.
