@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UserInterfaceLayouts</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nameLabel">Name:&#160;</string>
+    <string name="phoneLabel">Phone:&#160;</string>
+
+</resources>

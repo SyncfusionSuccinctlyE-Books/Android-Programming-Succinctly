@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageActivity" >
+    
+    <TextView
+        android:id="@+id/originalImageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Original: " />
+    <ImageView
+        android:id="@+id/originalImage"
+        android:layout_toRightOf="@+id/stretchedImageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/syncfusion_icon" />
+    
+    <TextView
+        android:id="@+id/tintedImageLabel"
+        android:layout_below="@id/originalImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Tinted: " />
+    <ImageView
+        android:id="@+id/tintedImage"
+        android:layout_toRightOf="@id/stretchedImageLabel"
+        android:layout_below="@id/originalImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#8800ff00"
+        android:padding="5dp"
+        android:src="@drawable/syncfusion_icon" />
+    
+    <TextView
+        android:id="@id/stretchedImageLabel"
+        android:layout_below="@id/tintedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Stretched: " />
+    <ImageView
+        android:id="@+id/stretchedImage"
+        android:layout_toRightOf="@id/stretchedImageLabel"
+        android:layout_below="@id/tintedImage"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:padding="5dp"
+        android:src="@drawable/syncfusion_icon" />
+    
+    <TextView
+        android:id="@+id/dynamicImageLabel"
+        android:layout_below="@id/stretchedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Dynamic: " />
+    <ImageView
+        android:id="@+id/dynamicImage"
+        android:layout_toRightOf="@id/stretchedImageLabel"
+        android:layout_below="@id/stretchedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+</RelativeLayout>

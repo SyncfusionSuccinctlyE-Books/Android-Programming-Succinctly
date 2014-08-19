@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_red">Red Pill</string>
+    <string name="button_blue">Blue Pill</string>
+    <string name="title_activity_second">Second Activity</string>
+
+</resources>

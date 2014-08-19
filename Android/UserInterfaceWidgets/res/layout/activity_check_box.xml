@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".CheckBoxActivity" >
+
+    <TextView
+        android:id="@+id/checkBoxText"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="Hello, World!"
+        android:textSize="18sp" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green text"
+        android:onClick="checkBoxClicked" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bold text"
+        android:onClick="checkBoxClicked" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big text"
+        android:onClick="checkBoxClicked" />
+
+</LinearLayout>

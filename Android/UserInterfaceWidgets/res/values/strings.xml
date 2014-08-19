@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UserInterfaceWidgets</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_text_field">TextFieldActivity</string>
+    <string name="title_activity_check_box">CheckBoxActivity</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+
+    <string-array name="spinnerColors">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+    </string-array>
+
+    <string name="title_activity_picker">PickerActivity</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity" >
+
+    <TextView
+        android:id="@+id/textButtonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Text: " />
+    <Button
+        android:id="@+id/textButton"
+        android:layout_toRightOf="@+id/textImageButtonLabel"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+		android:text="Edit" />
+    <TextView
+        android:id="@+id/imageButtonLabel"
+        android:layout_below="@id/textButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Icon: " />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_toRightOf="@id/textImageButtonLabel"
+        android:layout_below="@id/textButton"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:padding="20dp"
+		android:src="@drawable/edit_button_icon" />
+    <TextView
+        android:id="@id/textImageButtonLabel"
+        android:layout_below="@id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Both: " />
+    <Button
+        android:id="@+id/textImageButton"
+        android:layout_toRightOf="@id/textImageButtonLabel"
+        android:layout_below="@id/imageButton"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:padding="20dp"
+		android:text="Edit"
+		android:drawableLeft="@drawable/edit_button_icon"
+		android:drawablePadding="10dp" />
+
+</RelativeLayout>
